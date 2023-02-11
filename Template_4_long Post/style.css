@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+  font-family: "mvtyper";
+  src: url("mvtyper.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Noto Naskh Arabic";
+    src: url("IBMPlexSansArabic-Medium.ttf") format("truetype")
+  }
+
+
+.container {
+    width: 30em;
+    height: 40em;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+    background-image: url("https://i.pinimg.com/564x/0e/02/80/0e02801030ce62b05ac780490ebb8a6f.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    opacity: .9;
+    position: relative;
+    isolation: isolate;
+    
+}
+
+.container::after {
+    content: "";
+    position: absolute;
+    background: black;
+    inset: 0; 
+    z-index: -1;
+    opacity: .2;
+    background-blend-mode: multiply;
+    
+
+}
+
+
+.logo {
+    width: 3em;
+    height: 3em;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: 2em;
+    left: 13.2em;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.page-number {
+    position: absolute;
+    bottom: 3em;
+    left: 226px;
+    font-size: .8em;
+    font-weight: bold;
+    color: #beb388;
+    font-family: "Noto Naskh Arabic";
+  }
+
+  .arabdiv {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 8em;
+    left: 2em;
+    font-size: .8em;
+    color: #fce99c;
+    text-align: center;
+    justify-content: center;
+    font-family: "Noto Naskh Arabic";
+    text-shadow: 2px 2px #000, 2px 2px #000, 3px 3px #000;
+}
+
+.dhivdiv {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 12.5em;
+    left: 2em;
+    font-size: 15px;
+    color: #fce99c;
+    text-align: center;
+    justify-content: center;
+    font-family: "mvtyper";
+    text-shadow: 2px 2px #000, 2px 2px #000, 3px 3px #000;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 34em;
+    left: 2em;
+    font-size: .7em;
+    color: #a5913f;
+    text-align: right;
+    justify-content: right;
+    font-family: "Noto Naskh Arabic", "";
+    text-shadow: 2px 2px #000, 2px 2px #000, 3px 3px #000;
+}
+ 
+.name::before {
+    content: "\2014\0020";
+}
+.name::after {
+    content: "\2014\0020";
+}
+  
+.arabdiv2 {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 31.8em;
+    left: 2em;
+    font-size: .8em;
+    color: #fce99c;
+    text-align: center;
+    justify-content: center;
+    font-family: "Noto Naskh Arabic";
+    text-shadow: 2px 2px #000, 2px 2px #000, 3px 3px #000;
+}
+
+.dhivdiv2 {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 30em;
+    left: 2em;
+    font-size: 15px;
+    color: #fce99c;
+    text-align: center;
+    justify-content: center;
+    font-family: "mvtyper";
+    text-shadow: 2px 2px #000, 2px 2px #000, 3px 3px #000;
+}
+
+.name2 {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 48em;
+    left: 2em;
+    font-size: .7em;
+    color: #a5913f;
+    text-align: right;
+    justify-content: right;
+    font-family: "Noto Naskh Arabic", "";
+    text-shadow: 2px 2px #000, 2px 2px #000, 3px 3px #000;
+}
+ 
+.name2::before {
+    content: "\2014\0020";
+}
+.name2::after {
+    content: "\2014\0020";
+}
+
