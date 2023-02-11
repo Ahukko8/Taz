@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "mvthaanarabi", "mvtyper", "Open Sans";
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-image: url('https://w0.peakpx.com/wallpaper/964/458/HD-wallpaper-islamic-abstract-black-calligraphic-calligraphy-clean-geometric-patterns-gold-gradient-islam-islamic-islamic-art.jpg');
+    background-size: cover;
+    position: relative;
+    isolation: isolate;
+   
+   
+}
+
+.container::after {
+    content: "";
+    position: absolute;
+    background: rgb(0, 0, 0);
+    inset: 0; 
+    z-index: -1;
+    opacity: .7;
+    background-blend-mode: multiply;
+}
+
+.arab {
+    color: rgb(194, 162, 19);
+    text-shadow: 2px 2px  #1c1d4e;
+}
+
+.dhivehi {
+    color: rgb(194, 162, 19);
+    text-shadow: 2px 2px  #1c1d4e;
+    position: relative;
+    top: 200px
+}
+
+.name, .source {
+    color: rgb(194, 162, 19);
+    text-shadow: 2px 2px  #1c1d4e;
+}
+
+.name::after {
+    content: "\2014\0020";
+}
+
+.name::before {
+    content: "\2014\0020";
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: 200px;
+    float: center;
+}
+
+.logo::after {
+    content: "";
+    position: absolute;
+    background: rgb(0, 0, 0);
+    inset: 0; 
+    z-index: -1;
+    opacity: .7;
+    
+}

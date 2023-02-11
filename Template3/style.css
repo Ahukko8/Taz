@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    width: 30em;
+    height: 40em;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+    background-image: url("https://w0.peakpx.com/wallpaper/191/765/HD-wallpaper-elegant-gold-background-black-gold-elegans-design-texture.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    opacity: .9;
+    position: relative;
+    isolation: isolate;
+}
+
+.container::after {
+    content: "";
+    position: absolute;
+    background: rgb(0, 0, 0);
+    inset: 0; 
+    z-index: -1;
+    opacity: .2;
+    background-blend-mode: multiply;
+
+}
+
+
+.logo {
+    width: 55px;
+    height: 55px;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: 27em;
+    left: 13.2em;
+    float: center;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+.dhivehi{
+    text-align: center;
+    text-justify: auto;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #beb388;;
+    position: relative;
+    font-family: "mvtyper";
+    text-shadow: 2px 2px #000, 2px 2px #000, 3px 3px #000;
+    overflow: hidden;
+}
+
+.arabic {
+    color: #beb388;;
+    font-size: 0.6rem;
+    text-align: center;
+    position: relative;
+    bottom: .95em;
+    font-family: "Noto Naskh Arabic";
+    text-shadow: 2px 2px #000, 2px 2px #000, 3px 3px #000;
+}
+
+
+.name{
+    color: #beb388;;
+    text-align: center;
+    position: relative;
+    top: 1em;
+  font-family: "mvtyper", "Noto Naskh Arabic";
+  font-size: .5em;
+  text-shadow: 2px 2px #000, 2px 2px #000, 3px 3px #000;
+}
+
+.source {
+  color: #beb388;;
+    text-align: center;
+    position: relative;
+    top: 1em;
+  font-family: "Noto Naskh Arabic";
+  text-shadow: 2px 2px #000, 2px 2px #000, 3px 3px #000;
+  font-size: .5em;
+}
+    
+
+.name::after {
+    content: "\2014\0020";
+}
+
+.name::before {
+    content: "\2014\0020";
+}
+
+@font-face {
+  font-family: "mvtyper";
+  src: url("mvtyper.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "Noto Naskh Arabic";
+    src: url("IBMPlexSansArabic-Medium.ttf") format("truetype")
+  }
+  
+

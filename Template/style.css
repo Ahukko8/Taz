@@ -1,0 +1,205 @@
+.quote {
+    font-family: "mvthaanarabi", "mvtyper", "Open Sans";
+    background-image: url(https://faseyha.info/topic/view/63b99f307b7d357d0192e0bc/asset/view/taz-logo-1.jpg);
+    color:white;
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: multiply;
+    background-color: rgb(31, 28, 1);
+    
+}
+
+.quote::before {
+    content:"\201e";
+    color: rgb(179, 157, 36);
+    font-size: 100px;
+    position: relative;
+    left: 560px;
+    top: 20px;
+    
+}
+
+.content1 {
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    -webkit-text-fill-color: rgb(209, 221, 221);
+}
+
+.content2 {
+    font-family: "mvthaanarabi", "mvtyper", "Open Sans";
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    -webkit-text-fill-color: rgb(205, 228, 228);
+}
+
+.name {
+    font-family: "mvthaanarabi", "mvtyper", "Open Sans";
+    text-align: right;
+    padding: 20px;
+    color:rgb(179, 157, 36)
+}
+
+.name::before {
+    content: "\2014\0020"
+}
+
+.name::after {
+    content: "\2014\0020"
+}
+
+.source {
+    font-family: "mvthaanarabi", "mvtyper", "Open Sans";
+    text-align: right;
+    color:rgb(179, 157, 36);
+    padding: 0;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+}
+
+.source::after {
+    content: "\2014\0020"
+}
+
+@font-face {
+	font-family: "mvdawla";
+	src:
+	url("/fonts/mvdawla.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mvtyper";
+	src:
+	url("/fonts/mvtyper.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mvtyper";
+	src:
+	url("/fonts/mvtypebold.ttf") format("truetype");
+	font-weight:300;
+}
+@font-face {
+	font-family: "aammu";
+	src:
+	url("/fonts/aammufkF.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mvthaanarabi";
+	src:
+	url("/fonts/mv-thaanarabi.ttf") format("truetype");
+}
+@font-face {
+	font-family: "kanafala";
+	src:
+	url("/fonts/kanafala.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "mv-dubai";
+	src: url("/fonts/mv-dubai.ttf") format("truetype");
+}
+@font-face {
+	font-family: "thavaa";
+	src:
+	url("/fonts/thavaa.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mv-sishisozo";
+	src:
+	url("/fonts/mv-sishisozo.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mv-beys";
+	src:
+	url("/fonts/mv-beys.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mv-runa-us";
+	src:
+	url("/fonts/mv-runa-us.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mv-roma";
+	src:
+	url("/fonts/mv-roma.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mv-ashaahi";
+	src:
+	url("/fonts/mv-ashaahi.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mv-akson";
+	src:
+	url("/fonts/mv-akson.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mv-runa";
+	src:
+	url("/fonts/mv-runa.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mv-sarukitu";
+	src:
+	url("/fonts/mv-sarukitu.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mv-prathama-tin";
+	src:
+	url("/fonts/mv-prathama-tin.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mv-sishisozo-vah";
+	src:
+	url("/fonts/mv-sishisozo-vah.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mv-hulhumale";
+	src:
+	url("/fonts/mv-hulhumale.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mv-prathama-ek";
+	src:
+	url("/fonts/mv-prathama-ek.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mv-vashalo";
+	src:
+	url("/fonts/mv-vashalo.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mv-golhifoshi";
+	src:
+	url("/fonts/mv-golhifoshi.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mv-prathama-dva";
+	src:
+	url("/fonts/mv-prathama-dva.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mazeletter-labyrinth";
+	src:
+	url("/fonts/mazeletter-labyrinth.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mazeletter-ziggurat";
+	src:
+	url("/fonts/mazeletter-ziggurat.ttf") format("truetype");
+}
+@font-face {
+	font-family: "mvnasri_reg";
+	src:
+	url("/fonts/mvnasri_reg.ttf") format("truetype");
+}
