@@ -1,6 +1,4 @@
-
-
-
+    
 @font-face {
   font-family: "mvtyper";
   src: url("mvtyper.ttf") format("truetype")
@@ -15,15 +13,15 @@
     margin: 0;
     padding: 0;
     height: 100%;
+    width:100%;
 }
 .container {
     width: 30em;
     margin: auto;
     position: relative;
-    background-color: #e25d5d;
+    background-color: #1d9d8b;;
     height: 100%;
-    padding: 15px;
-    
+    padding: 15px;   
 }
 
 .logo {
@@ -32,37 +30,46 @@
     top: 1em;
     left: 13.2em;
     border-radius: 25px;
-    overflow: hidden;
 }
 
 .arabdiv {
-    display: flex;
-    justify-content: center;
     width: 400px;
     position: relative;
-    top: 2px;
+    top: 5px;
     left: 30px;
     font-size: 15px;
-    color: #000000;
-    text-align: center;
-    justify-content: center;
+    color: #ffffff;
     font-family: "Noto Naskh Arabic";
-    
+    direction: rtl;    
 }
 
 .dhivdiv {
-    display: flex;
     width: 400px;
-    margin: 0;
     position: relative;
     bottom: 20px;
     left: 30px;
     font-size: 20px;
-    color: #0c0c0c;
-    text-align: center;
-    justify-content: center;
+    color: white;
     font-family: "mvtyper";
     overflow: hidden;
+    direction: rtl;
 }
 
+.source {
+  width: 400px;
+  position: relative;
+  bottom: 45px;
+  left: 30px;
+  font-size: 10px;
+  color: white;
+  font-family: "mvtyper", "Noto Naskh Arabic";
+  overflow: hidden;
+  direction: rtl;
+}
 
+.name::before {
+  content: "\2014\0020";
+}
+.name::after {
+  content: "\2014\0020";
+}
